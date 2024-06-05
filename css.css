@@ -1,0 +1,55 @@
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.center-form {
+    text-align: center;
+  }
+  
+  .center-form button {
+    margin-top: 10px; /* Khoảng cách giữa input và button */
+  }
+
+.chat-box {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.chat-box p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.chat-box p strong {
+    color: #333;
+}
