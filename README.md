@@ -26,7 +26,7 @@ A real-time chat application built with PHP, MySQL, HTML, CSS, and JavaScript. T
     ```
 
 2. **Set up the database:**
-    - Import the `database.sql` file into your MySQL database to create the necessary tables.
+    - Import the `chat_app.sql` file into your MySQL database to create the necessary tables.
     - Update the `db.php` file with your database credentials.
 
 3. **Run the application:**
