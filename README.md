@@ -1,47 +1,49 @@
-# Real-Time Chat Application
+# Ứng Dụng Real-Time Chat
 
-## Description
+## Mô Tả
 
-A real-time chat application built with PHP, MySQL, HTML, CSS, and JavaScript. This application allows users to log in, select a chat room, and communicate in real-time without refreshing the page. It also includes a feature to delete all messages in a chat room.
+Ứng dụng chat thời gian thực được xây dựng bằng PHP, MySQL, HTML, CSS và JavaScript. Ứng dụng này cho phép người dùng đăng nhập, chọn phòng chat và giao tiếp trong thời gian thực mà không cần làm mới trang. Ứng dụng cũng có chức năng xóa tất cả tin nhắn trong một phòng chat.
 
-## Features
+## Tính Năng
 
-- **User Authentication:** Users can log in with their username and select a chat room from a dropdown menu.
-- **Real-Time Messaging:** Messages are sent and received in real-time using AJAX and PHP, ensuring a smooth user experience without page reloads.
-- **Message Deletion:** Users can delete all messages in a chat room with a single click.
-- **User Interface:** A user-friendly interface designed with HTML and CSS.
+- **Xác Thực Người Dùng:** Người dùng có thể đăng nhập bằng cách nhập tên người dùng và chọn phòng chat từ menu thả xuống.
+- **Nhắn Tin Thời Gian Thực:** Tin nhắn được gửi và nhận trong thời gian thực bằng cách sử dụng AJAX và PHP, đảm bảo trải nghiệm người dùng mượt mà mà không cần làm mới trang.
+- **Xóa Tin Nhắn:** Người dùng có thể xóa tất cả tin nhắn trong một phòng chat bằng một nút bấm.
+- **Giao Diện Người Dùng:** Giao diện thân thiện với người dùng được thiết kế bằng HTML và CSS.
 
-## Technologies Used
+## Công Nghệ Sử Dụng
 
 - **Backend:** PHP, MySQL
 - **Frontend:** HTML, CSS, JavaScript
-- **Real-Time Communication:** AJAX
+- **Giao Tiếp Thời Gian Thực:** AJAX
 
-## Installation
+## Cài Đặt
 
-1. **Clone the repository:**
+1. **Clone repository:**
     ```bash
-    git clone https://github.com/yourusername/repo-name.git
-    cd repo-name
+    git clone https://github.com/tennguoisudung/tendoan.git
+    cd tendoan
     ```
 
-2. **Set up the database:**
-    - Import the `chat_app.sql` file into your MySQL database to create the necessary tables.
-    - Update the `db.php` file with your database credentials.
+2. **Thiết lập cơ sở dữ liệu:**
+    - Nhập file `database.sql` vào cơ sở dữ liệu MySQL của bạn để tạo các bảng cần thiết.
+    - Cập nhật file `db.php` với thông tin đăng nhập cơ sở dữ liệu của bạn.
 
-3. **Run the application:**
-    - Make sure your web server (e.g., Apache) is running.
-    - Open `index.html` in your web browser to start using the application.
+3. **Chạy ứng dụng:**
+    - Đảm bảo máy chủ web của bạn (ví dụ: Apache) đang chạy.
+    - Mở file `index.html` trong trình duyệt web của bạn để bắt đầu sử dụng ứng dụng.
 
-## Usage
+## Sử Dụng
 
-1. **Login:**
-    - Enter your username and select a chat room from the dropdown menu.
+1. **Đăng nhập:**
+    - Nhập tên người dùng và chọn phòng chat từ menu thả xuống.
 
 2. **Chat:**
-    - Type your message and click "Send" to post it in the chat room.
-    - Messages will appear in real-time without needing to refresh the page.
+    - Nhập tin nhắn của bạn và nhấn "Send" để gửi tin nhắn vào phòng chat.
+    - Tin nhắn sẽ xuất hiện trong thời gian thực mà không cần làm mới trang.
 
-3. **Delete Messages:**
-    - Click the "Delete All Messages" button to clear all messages in the current chat room.
+3. **Xóa Tin Nhắn:**
+    - Nhấn nút "Delete All Messages" để xóa tất cả tin nhắn trong phòng chat hiện tại.
+
+
 
