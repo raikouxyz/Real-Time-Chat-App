@@ -26,12 +26,12 @@
     ```
 
 2. **Thiết lập cơ sở dữ liệu:**
-    - Nhập file `database.sql` vào cơ sở dữ liệu MySQL của bạn để tạo các bảng cần thiết.
+    - Nhập file `chat_app.sql` vào cơ sở dữ liệu MySQL của bạn để tạo các bảng cần thiết.
     - Cập nhật file `db.php` với thông tin đăng nhập cơ sở dữ liệu của bạn.
 
 3. **Chạy ứng dụng:**
     - Đảm bảo máy chủ web của bạn (ví dụ: Apache) đang chạy.
-    - Mở file `index.html` trong trình duyệt web của bạn để bắt đầu sử dụng ứng dụng.
+    - Mở file `index.php` trong trình duyệt web của bạn để bắt đầu sử dụng ứng dụng.
 
 ## Sử Dụng
 
