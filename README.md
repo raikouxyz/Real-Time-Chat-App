@@ -22,7 +22,6 @@
 1. **Clone repository:**
     ```bash
     git clone https://github.com/raikouxyz/Real-Time-Chat-App.git
-    cd tendoan
     ```
 
 2. **Thiết lập cơ sở dữ liệu:**
