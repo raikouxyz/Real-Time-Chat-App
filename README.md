@@ -21,7 +21,7 @@
 
 1. **Clone repository:**
     ```bash
-    git clone https://github.com/tennguoisudung/tendoan.git
+    git clone https://github.com/raikouxyz/Real-Time-Chat-App.git
     cd tendoan
     ```
 
